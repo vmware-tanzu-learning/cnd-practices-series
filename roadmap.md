@@ -36,6 +36,9 @@ with the following clarifications:
 The rest are considered roadmap, and subject to evolve based from
 field feedback and customer demand.
 
+An external viewable version of the roadmap is in Google Doc:
+https://docs.google.com/document/d/12Wxpzqk2C3lhKSMlfeUhGL5mm3b-F7LGi-hVc9pd8i4/edit
+
 ## Series 1 - Build and operate a Greenfield Cloud Native application
 
 A 100 level series with a focus on getting a greenfield application up
