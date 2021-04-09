@@ -65,6 +65,7 @@ for Developers courses using Tanzu Application Services or Kubernetes.
 1.  Zero downtime upgrades**
 1.  Making an application available.**
 1.  Scaling an application**
+1.  Securing an application
 1.  Monitoring an application
 1.  Introduction to fault tolerance, resilience, chaos engineering
     (fail fast, socket timeout, retry/backoff)
@@ -90,6 +91,7 @@ and the idea is to modernize in this series.
 1.  Introduction to distributed applications (Microservices)
 1.  Classifying the problems encountered when introducing Microservices
 1.  API Versioning
+1.  Securing a distributed application
 1.  Specialized concepts for microservices solution patterns:
     - Service Discovery
     - Client Load Balancing
