@@ -123,7 +123,7 @@ or replatformed application to be Cloud Native.
 
 A 300 level series that takes a student through a journey of
 building a green field Cloud Native application,
-evolve it through a series of real world problems during its "Day 2"
+evolving it through a series of real world problems during its "Day 2"
 application phase.
 
 - See [PAL Tracker Evolution](https://github.com/platform-acceleration-lab/pal-tracker-evolution#readme), each release is a workshop to apply fundamentals principles.
