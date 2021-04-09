@@ -14,64 +14,110 @@ tags:
   - Practices
   - Development
 ---
+This is a multi-series of lectures and workshops for developers and
+application operators who need to design, build, operate, and evolve
+applications running on modern platforms.
 
-This is a series of lectures and workshops for developers and
-application operators new to cloud native concepts who wish to learn the
-basics of:
+The learning path focuses on concepts and practices first,
+using modern tools such as Spring, Kubernetes and Tanzu specific
+products.
 
-- Leveraging modern platform features to move fast, but safely
-- Leveraging modern practices to move fast, but safely
+*The multi-series does not teach specific tool features in isolation,*
+*except where demonstrating concepts or practices of a particular*
+*lesson.*
 
-The series roadmap of workshops and/or associated tracks are as follows
-(items with * are available or confirmed):
+The roadmap is as follows,
+with the following clarifications:
 
-Fundamentals introduction series (100 level)
+- Series, workshops or tracks suffixed with * are currently available.
+- Series, workshops or tracks suffixed with ** are currently being authored.
+- Series, workshops or tracks suffixed with *** are planned.
 
--   Cloud Native introduction*
--   Personas and Roles*
--   Practices and Guidelines*
--   Modern Platform Concepts*
+The rest are considered roadmap, and subject to evolve based from
+field feedback and customer demand.
 
-Fundamentals - Making a single application deployment cloud native (100 level)
+## Series 1 - Build and operate a Greenfield Cloud Native application
 
--   Containerization and deployment of a web application*
--   Handling environmental configuration*
--   Application and deployment lifecycle management*
--   Zero downtime upgrades*
--   Scaling an application*
--   Monitoring an application
--   Introduction to fault tolerance, resilience, chaos engineering (fail fast, socket timeout, retry/backoff)
--   Automation, Continuous Integration and Delivery Pipelines
--   REST applications
--   Database migrations and versioning
--   Backing Services
+A 100 level series with a focus on getting a greenfield application up
+and running, and covering day 2 operations.
 
-Fundamentals - Evolving to microservices (100 level)
+### Introduction
 
--   Evolving a codebase -> monolith to microservices (App Continuum)
--   Introduction to distributed applications (Microservices)
--   Classifying the problems encountered when introducing Microservices
--   API Versioning
--   Specialized concepts for microservices solution patterns:
+First workshop introduces concepts in the following tracks (lessons):
+
+1. Cloud Native introduction*
+1. Personas and Roles*
+1. Practices and Guidelines*
+1. Modern Platform Concepts*
+
+### Focus on getting a single app to be Cloud Native***
+
+This series is based from concepts and practices previously taught in
+the Instructor-Led Master Class for Developers courses using
+Tanzu Application Services or Kubernetes.
+
+1.  Containerization and deployment of a web application*
+1.  Handling environmental configuration**
+1.  Application and deployment lifecycle management**
+1.  Zero downtime upgrades**
+1.  Making an application avaiable.**
+1.  Scaling an application**
+1.  Monitoring an application
+1.  Introduction to fault tolerance, resilience, chaos engineering
+    (fail fast, socket timeout, retry/backoff)
+1.  Automation, Continuous Integration and Delivery Pipelines
+1.  REST applications
+1.  Database migrations and versioning
+1.  Backing Services
+
+## Series 2 - Distributed applications and microservices
+
+A mix of 100 and 200 level series tracks covering the concepts,
+guidelines, practices and patterns how to evolve a codebase and
+application deployment architecture to accommodate problems with
+distributed applications and microservices.
+
+1.  Evolving a codebase -> monolith to microservices (App Continuum)
+1.  Introduction to distributed applications (Microservices)
+1.  Classifying the problems encountered when introducing Microservices
+1.  API Versioning
+1.  Specialized concepts for microservices solution patterns:
     - Service Discovery
     - Client Load Balancing
     - Distributed Trace
     - API gateways
     - Advanced fault tolerance, resilience and antifragility (fallback, circuit break, bulkhead, walk-away timeout)
--   Architecture Styles (when blocking web application style is not enough):
-    -   Event-based architectures
-        - Serverless
-        - Webhooks
-        - Event sourcing
-        - CQRS
-    -   Reactive (non-blocking)
-    -   Streams
-    -   Batch (in a Cloud Native friendly way)
 
-Putting things together (200 series) - Evolve a codebase from greenfield to post day 2 ops
+## Series 3 - Architecture Styles
+
+A mix of 100 and 200 level series tracks that cover what to do when
+simple web applications are not enough:
+
+1.  Event-based architectures
+    - Serverless
+    - Webhooks
+    - Event sourcing
+    - CQRS
+1.  Reactive (non-blocking)
+1.  Streams
+1.  Batch (in a Cloud Native friendly way)
+
+## Series 4 - Replatforming
+
+A mix of 100 and 200 level series tracks that cover how to get a legacy
+application onto a modern platform, and what practices are necessary to
+get it there.
+
+## Series 5 - Modernization
+
+A mix of 100 and 200 level series tracks that cover how to get a legacy
+or replatformed application to be Cloud Native.
+
+## Series 6 - Capstone, putting things together
+
+A 300 level series track that takes a student through a journey of
+building a green field Cloud Native application,
+evolve it through a series of real world problems during its "Day 2"
+application phase.
 
 - See [PAL Tracker Evolution](https://github.com/platform-acceleration-lab/pal-tracker-evolution#readme), each release is a workshop to apply fundamentals principles.
-
-The series provides foundational background to best leverage Tanzu
-Developer Center Spring, Spring Boot or Kubernetes content, as well as
-Tanzu products
