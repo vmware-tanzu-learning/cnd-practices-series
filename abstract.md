@@ -25,12 +25,15 @@ basics of:
 The series roadmap of workshops and/or associated tracks are as follows
 (items with * are available or confirmed):
 
-Fundamentals series (100)
+Fundamentals introduction series (100 level)
 
 -   Cloud Native introduction*
 -   Personas and Roles*
 -   Practices and Guidelines*
 -   Modern Platform Concepts*
+
+Fundamentals - Making a single application deployment cloud native (100 level)
+
 -   Containerization and deployment of a web application*
 -   Handling environmental configuration*
 -   Application and deployment lifecycle management*
@@ -42,6 +45,9 @@ Fundamentals series (100)
 -   REST applications
 -   Database migrations and versioning
 -   Backing Services
+
+Fundamentals - Evolving to microservices (100 level)
+
 -   Evolving a codebase -> monolith to microservices (App Continuum)
 -   Introduction to distributed applications (Microservices)
 -   Classifying the problems encountered when introducing Microservices
@@ -62,9 +68,9 @@ Fundamentals series (100)
     -   Streams
     -   Batch (in a Cloud Native friendly way)
 
-Putting things together (200 series)
+Putting things together (200 series) - Evolve a codebase from greenfield to post day 2 ops
 
-TBD
+- See [PAL Tracker Evolution](https://github.com/platform-acceleration-lab/pal-tracker-evolution#readme), each release is a workshop to apply fundamentals principles.
 
 The series provides foundational background to best leverage Tanzu
 Developer Center Spring, Spring Boot or Kubernetes content, as well as
