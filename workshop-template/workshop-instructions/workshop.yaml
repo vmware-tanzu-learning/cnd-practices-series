@@ -1,0 +1,10 @@
+---
+name: Kubernetes Developer
+
+modules:
+  activate:
+  - intro
+  - exercises/01-exercise1
+  - exercises/02-exercise2
+  - exercises/03-exercise3
+  - wrap
