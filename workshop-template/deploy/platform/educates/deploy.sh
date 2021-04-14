@@ -1,7 +1,7 @@
 #!/bin/bash
 
 export EDUCATES_VERSION="master"
-export DEFAULT_CLUSTER_NAME="CHANGEME"
+export DEFAULT_CLUSTER_NAME="cnd-practices"
 export WORKSHOP_NAME="${2:-$WORKSHOP_NAME}"
 
 DIR=$(dirname $0)
@@ -22,6 +22,12 @@ installEducates() {
         echo "===== Setting Ingress Domain to ${IPADDRESS}.nip.io"
         kubectl set env deployment/eduk8s-operator -n eduk8s INGRESS_DOMAIN="${IPADDRESS}.nip.io"
     fi
+}
+
+removeWorkshop() {
+    echo "===== Removing the workshop and training portal"
+
+    kubectl delete -f $DIR
 }
 
 loadWorkshop() {

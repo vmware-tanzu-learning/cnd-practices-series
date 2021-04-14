@@ -11,6 +11,8 @@ reload: build educates-deploy educates-refresh
 
 refresh: build educates-refresh
 
+refresh2: build educates-refresh2
+
 .PHONY: build kind-start kind-stop educates-deploy educates-refresh release deploy get-reporeg get-name
 
 kind-start:
@@ -24,7 +26,13 @@ educates-deploy:
 	deploy/platform/educates/deploy.sh loadWorkshop ${NAME}
 	deploy/platform/educates/deploy.sh loadContent ${NAME}
 
+# TODO does not work with current impl due to nginx container file perms issue
 educates-refresh:
+	deploy/platform/educates/deploy.sh loadContent ${NAME}
+
+educates-refresh2:
+	deploy/platform/educates/deploy.sh removeWorkshop ${NAME}
+	deploy/platform/educates/deploy.sh loadWorkshop ${NAME}
 	deploy/platform/educates/deploy.sh loadContent ${NAME}
 
 build:
